@@ -1,8 +1,8 @@
 # ksql_learning
 
-./kafka-topics --list --bootstrap-server localhost:9092
-./kafka-console-consumer --bootstrap-server localhost:9092 --topic <topic_name> --from-beginning
-./kafka-console-consumer --bootstrap-server localhost:9092 --topic <topic_name>
+./kafka-topics --list --bootstrap-server localhost:9092  
+./kafka-console-consumer --bootstrap-server localhost:9092 --topic <topic_name> --from-beginning  
+./kafka-console-consumer --bootstrap-server localhost:9092 --topic <topic_name>  
 
 vi /Confluent/confluent-5.2.1/etc/ksql/ksql-server.properties
 ```
