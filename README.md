@@ -1,5 +1,8 @@
 # ksql_learning
+managing everything in control center: http://localhost:9021
 
+or  
+  
 ./kafka-topics --list --bootstrap-server localhost:9092  
 ./kafka-console-consumer --bootstrap-server localhost:9092 --topic <topic_name> --from-beginning  
 ./kafka-console-consumer --bootstrap-server localhost:9092 --topic <topic_name>  
