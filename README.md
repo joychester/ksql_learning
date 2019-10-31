@@ -12,6 +12,6 @@ listeners=http://localhost:8099
 ./ksql http://localhost:8099 (make sure 8099 port is not taken)  
 
 ```CREATE STREAM slow_resp AS
- SELECT * FROM date_filter
- WHERE resptime > 250;
+ SELECT * FROM data_filter_dummy_topicname
+ WHERE resptime_or_any_column > 250;
  ```
